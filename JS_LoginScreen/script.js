@@ -6,7 +6,7 @@ $(document).ready(function () {
         var username = "ib";
         var password = "123";
         var enteredUsername = $('.username').val().toLowerCase();
-        var enteredPassword = $('.password').val().toLowerCase();
+        var enteredPassword = $('.password').val();
 
         if (enteredUsername == username && enteredPassword == password) {
             alert("Logged in!");
